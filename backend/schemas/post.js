@@ -18,6 +18,14 @@ export default {
       },
     },
     {
+      name: 'blurb',
+      title: 'Blurb',
+      type: 'text',
+      options: {
+        maxLength: 300,
+      },
+    },
+    {
       name: 'author',
       title: 'Author',
       type: 'reference',
